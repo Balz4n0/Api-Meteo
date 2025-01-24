@@ -1,0 +1,46 @@
+body {
+    background-color: #818182;
+    color: #ffffff;
+}
+
+.chart-container {
+    position: relative;
+    height: 400px;
+    width: 100%;
+}
+
+.weather-code {
+    border: 1px solid #000;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    color: #000000;
+    background-color: #818182;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.time-segment {
+    margin-top: 20px;
+}
+
+.date-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.date-button {
+    flex: 1;
+    margin: 0 5px;
+}
+
+.btn-black {
+    background-color: #000000; /* Nero */
+    border-color: #000000; /* Nero */
+}
+
+.btn-black:hover {
+    background-color: #333333; /* Nero scuro al passaggio del mouse */
+    border-color: #333333; /* Nero scuro al passaggio del mouse */
+}
